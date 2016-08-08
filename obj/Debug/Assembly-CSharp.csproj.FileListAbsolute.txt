@@ -1,0 +1,1 @@
+C:\Unity_projects\ninjaproject\ninja\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
