@@ -228,10 +228,10 @@ namespace UnityStandardAssets._2D
             if (!m_Grounded && jump && !m_Anim.GetBool("Ground") && falling && !m_Anim.GetBool("glide") && !doubleJump)
             {
                 //Set doublejump
-                m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+                //m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
 				//psystem.emission.rate.constantMax = 1000;
-                m_AirControl = true;
-                doubleJump = true;
+                //m_AirControl = true;
+                //doubleJump = true;
                 //m_SpriteRender.enabled = !m_SpriteRender.enabled;
             }
         }
